@@ -45,3 +45,9 @@ Assim, conseguimos observar que quanto maior a circunstância dos atacantes esta
 Aqui vemos o mais alto grau de exploração, a conclusão final de que o sistema está comprometido, que estão utilizando as informações e que há vulnerabilidade nesse programa. Sendo assim, o **CISA KEV** (Catálogo de Vulnerabilidades Conhecidas e Exploradas) é uma lista mantida pela **CISA** (Cybersecurity and Infrastructure Security Agency), a agência de segurança cibernética do governo federal dos Estados Unidos.
 
 Então para simplificar, o estudo temos essa tabela:
+| **Sistema** | **O que ele fornece** | **Como usá-lo** |
+| --- | --- | --- |
+| **CVE** | O **ID** único da vulnerabilidade (e a descrição). | É a **referência** que você usa para rastrear e discutir a falha. |
+| **CVSS** | A **Gravidade** teórica (0.0 a 10.0). | Responde: "Quão ruim *seria* se fosse explorada?" Ajuda a classificar o impacto. |
+| **EPSS** | A **Probabilidade** estatística de exploração nos próximos 30 dias (0% a 100%). | Responde: "Quão provável é que a exploração aconteça *em breve*?" Ajuda a otimizar recursos. |
+| **CISA KEV** | **Confirmação** de exploração ativa. | Responde: "**A exploração já está acontecendo AGORA**." É a **prioridade absoluta**, independente da pontuação CVSS ou EPSS. |
